@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tech Tune
 
-## Getting Started
+Sync code is a Web Application where multiple users can do code synchronously. First Create a room and Copy the room ID then send the room ID which you want to call. also, you can see how many people are in your room. If any people enter or left to your room then the popup menu tells u that that man enter or left to room
 
-First, run the development server:
+## Tech
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+#### Frontend
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Made with [Next.js](https://nextjs.org/) ⚛️
+- Written in [TypeScript](https://www.typescriptlang.org/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+- UI Library [Aceternity UI](https://ui.aceternity.com/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[Demo.webm](https://user-images.githubusercontent.com/80352125/209821700-35ce1ecd-4f48-4576-8803-145f4c8ae541.webm)
 
-## Learn More
+## Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+![Screenshot from 2022-12-28 14-52-49](https://user-images.githubusercontent.com/80352125/209822098-7ff883a5-f9c8-4f7a-a493-5ecb76e83f2c.png)
+![Screenshot from 2022-12-28 14-53-20](https://user-images.githubusercontent.com/80352125/209822124-9c08aa27-e5b6-409e-a2e5-0b67044b45c2.png)
+![Screenshot from 2022-12-28 14-53-35](https://user-images.githubusercontent.com/80352125/209822168-0e66d63b-6818-476a-a481-22dbe502bd0b.png)
+![Screenshot from 2022-12-28 14-55-28](https://user-images.githubusercontent.com/80352125/209822185-baf2a9e3-78cd-440d-b4ac-0752b5c5703f.png)
+![Screenshot from 2022-12-28 14-55-32](https://user-images.githubusercontent.com/80352125/209822196-c70d1018-f427-4779-925d-b08981f9d856.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Configuration and running the Project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Configuration
 
-## Deploy on Vercel
+- Clone the repository`https://github.com/anuprajvarma/tech-tunes.git`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Running the Project
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+         npm i
+         npm run dev
