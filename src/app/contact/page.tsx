@@ -19,7 +19,7 @@ function Contact() {
         Accept: "application/json",
       },
       body: JSON.stringify({
-        access_key: "94c7da62-aaf1-421e-ab02-a0d122987cf0",
+        access_key: process.env.ACCESS_KEY,
         name: name,
         email: email,
         message: message,
